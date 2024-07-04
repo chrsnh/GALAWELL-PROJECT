@@ -25,31 +25,7 @@ function Dashboard() {
             <div className="py-10">
                 <div
                     className="flex flex-wrap justify-start items-center lg:justify-center gap-2 lg:gap-10 px-4 lg:px-0 mb-8">
-                    <div className="left">
-                        <img
-                            className=" w-40 h-40  object-cover rounded-full border-2 border-pink-600 p-1"
-                            src={'https://cdn-icons-png.flaticon.com/128/3135/3135715.png'} alt="profile"
-                        />
-                    </div>
                     <div className="right">
-                        <h1
-                            className='text-center font-bold text-2xl mb-2'
-                            style={{ color: mode === 'dark' ? 'white' : 'black' }}
-                        >
-                            Kamal Nayan Upadhyay
-                        </h1>
-
-                        <h2
-                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">
-                            Software Developer
-                        </h2>
-                        <h2
-                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">knupadhyay784@gmail.com
-                        </h2>
-                        <h2
-                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">
-                            <span>Total Blog : </span>  15
-                        </h2>
                         <div className=" flex gap-2 mt-2">
                             <Link to={'/createblog'}>
                                 <div className=" mb-2">

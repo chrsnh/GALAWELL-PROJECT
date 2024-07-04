@@ -5,7 +5,7 @@ function Footer() {
     const context = useContext(myContext);
     const { mode } = context;
     return (
-        <footer className="body-font" style={{ background: mode === 'dark' ? 'rgb(30, 41, 59)' : '#30336b' }}>
+        <footer className="body-font" style={{ background: mode === 'dark' ? 'rgb(169, 92, 104)' : '#A95C68' }}>
             {/* Left Content  */}
             <div className="container px-5 py-3 mx-auto flex items-center sm:flex-row flex-col">
                 {/* Blog Logo  */}
@@ -21,7 +21,7 @@ function Footer() {
                 </div>
 
                 {/* items  */}
-                <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+                <p className="text-sm text-white-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
                     © 2024 Alruch Co.
                 </p>
                 

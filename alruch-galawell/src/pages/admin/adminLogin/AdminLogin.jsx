@@ -63,8 +63,8 @@ export default function AdminLogin() {
                     className="m-0 grid place-items-center rounded-b-none py-8 px-4 text-center"
                     style={{
                         background: mode === 'dark'
-                            ? 'rgb(226, 232, 240)'
-                            : 'rgb(30, 41, 59)'
+                            ? 'rgb(227, 115, 131)'
+                            : 'rgb(227, 115, 131)'
                     }}
                 >
                     <div className="mb-4 rounded-full border border-white/10 bg-white/10 p-2 text-white">
@@ -75,13 +75,19 @@ export default function AdminLogin() {
                         </div>
                     </div>
 
-                    {/* Top Haeding  */}
-                    <Typography variant="h4" style={{
+                    <Typography variant="h6" style={{
                         color: mode === 'dark'
                             ? 'rgb(30, 41, 59)'
                             : 'rgb(226, 232, 240)'
                     }}>
-                        Admin Login
+                        Email: test@gmail.com
+                    </Typography>
+                    <Typography variant="h6" style={{
+                        color: mode === 'dark'
+                            ? 'rgb(30, 41, 59)'
+                            : 'rgb(226, 232, 240)'
+                    }}>
+                        Password: test1234
                     </Typography>
                 </CardHeader>
 
@@ -112,8 +118,8 @@ export default function AdminLogin() {
                         onClick={login}
                             style={{
                                 background: mode === 'dark'
-                                    ? 'rgb(226, 232, 240)'
-                                    : 'rgb(30, 41, 59)',
+                                    ? 'rgb(227, 115, 131)'
+                                    : 'rgb(227, 115, 131)',
                                 color: mode === 'dark'
                                     ? 'rgb(30, 41, 59)'
                                     : 'rgb(226, 232, 240)'

@@ -7,7 +7,7 @@ function HeroSection() {
     const { mode } = context;
     return (
         <section
-            style={{ background: mode === 'dark' ? 'rgb(30, 41, 59)' : '#30336b' }}>
+            style={{ background: mode === 'dark' ? 'rgb(169, 92, 104)' : '#A95C68' }}>
 
             {/* Hero Section  */}
             <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
