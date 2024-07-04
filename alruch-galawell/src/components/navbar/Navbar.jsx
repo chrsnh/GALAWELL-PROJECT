@@ -86,7 +86,7 @@ export default function Nav() {
                             {/* Logo Image  */}
                             <img
                                 className=' w-10 h-10 '
-                                src='https://cdn-icons-png.flaticon.com/128/3685/3685253.png'
+                                src='https://cdn-icons-png.flaticon.com/128/3762/3762131.png'
                             />
                             {/* Logo Text  */}
                             <span>

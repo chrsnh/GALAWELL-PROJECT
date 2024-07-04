@@ -25,7 +25,31 @@ function Dashboard() {
             <div className="py-10">
                 <div
                     className="flex flex-wrap justify-start items-center lg:justify-center gap-2 lg:gap-10 px-4 lg:px-0 mb-8">
+                    <div className="left">
+                        <img
+                            className=" w-40 h-40  object-cover rounded-full border-2 border-pink-600 p-1"
+                            src={'https://media.interaksyon.com/wp-content/uploads/2024/05/alice-guo-senate.jpg'} alt="profile"
+                        />
+                    </div>
                     <div className="right">
+                        <h1
+                            className='text-left font-bold text-2xl mb-2'
+                            style={{ color: mode === 'dark' ? 'white' : 'black' }}
+                        >
+                            Alice Leal Guo
+                        </h1>
+
+                        <h2
+                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">
+                            Politician
+                        </h2>
+                        <h2
+                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">amnesiagirl@gmail.com
+                        </h2>
+                        <h2
+                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">
+                            <span>Total Blog : </span>  15
+                        </h2>
                         <div className=" flex gap-2 mt-2">
                             <Link to={'/createblog'}>
                                 <div className=" mb-2">

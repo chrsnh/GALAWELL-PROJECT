@@ -12,16 +12,16 @@ function Footer() {
                 <div className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                     {/* logo  */}
                     <img className='w-10'
-                        src="https://cdn-icons-png.flaticon.com/128/3685/3685253.png" alt="logo"
+                        src="https://cdn-icons-png.flaticon.com/128/3762/3762131.png" alt="logo"
                     />
                     {/* logo text  */}
-                    <span className="ml-3 text-xl text-white">
+                    <span className="ml-3 text-xl text-black">
                         Gala Well
                     </span>
                 </div>
 
                 {/* items  */}
-                <p className="text-sm text-white-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+                <p className="text-sm text-black-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
                     © 2024 Alruch Co.
                 </p>
                 

@@ -34,7 +34,7 @@ export default function AdminLogin() {
             localStorage.setItem('admin', JSON.stringify(result));
             navigate('/dashboard');
         } catch (error) {
-            toast.error('Login Failed')
+            toast.error('Use the provided account credentials below and try again.')
             console.log(error)
         }
     }
